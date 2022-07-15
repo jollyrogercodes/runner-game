@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Runner</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="instructions">
+            <header>
+                <h1>The Running Game</h1>
+                <p>
+                    <sup>Based on The Dinosaur Game by Google</sup>
+                </p>
+            </header>
+            <section>
+            <h2><u>How To Play</u></h2>  
+            <p>
+                Press the <strong>UP ARROW KEY</strong> to jump.
+            </p>
+            <p>
+                Jump to dodge the <text style="color:brown">brown</text> stump.
+            </p>
+            <p>
+                Click the <strong>START</strong> button to begin!
+            </p>
+            </section>
+        </div>
+        <div id="game">
+<!-- Image assets taken from pixabay -->
+            <div>
+                <img id="character" src="assets/doggo.png">
+            </div>
+            <div>
+                <img id="block" src="assets/stump.png">
+            </div>
+        </div>
+        <div id="startButton">
+            <input type="button" id="start" value="START" onclick="playGame()">
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
